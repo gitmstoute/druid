@@ -1,0 +1,12 @@
+{
+  "dataSource": "wikiticker-2015-09-12-sampled",
+  "tuningConfig": {
+    "partitionsSpec": {
+      "type": "dynamic"
+    }
+  },
+  "granularitySpec": {
+    "segmentGranularity": "WEEK",
+    "queryGranularity": null
+    }
+}
